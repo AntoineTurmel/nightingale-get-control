@@ -1,12 +1,11 @@
 a img, a.img {
- border-style: none;
+	border-style: none;
 }
 body {
 	background-color: rgb(220,220,220);
 	color: #555;
 	font-family: helvetica, arial, sans-serif;
-	padding-left: 30px;
-	padding-top: 30px;
+  text-align:center;
 }
 a {
 	text-decoration: none;
@@ -32,27 +31,19 @@ a:hover {
 .detail#album { color:#888; font-size:0.8em; }
 
 #controls {
-	width:300px;
-	margin-top:1em;
-	/*border:2px solid black;*/
+
 }
 
 .logo {
 display:block;
-margin-left: -35px;
-margin-top: -35px;
 }
 
 .buttons {
-	margin-left:53px;
+  text-align:center;
 }
 
 .buttons a {
 	overflow:hidden;
-	float:left;
-	position: relative;
-	display:block;
-	padding-left: 3px;
 }
 
 #trackinfo {
@@ -60,30 +51,33 @@ clear:both;
 }
 
 .playpausestop a {
-	width:40px;
-	height:40px;
+	width:52px;
+	height:52px;
+	margin-left:-2px;
+	margin-right:-2px;
 }
 
-.nextprev a {
-	width:30px;
-	height:30px;
-	top: 5px;
-	padding-left: 3px;
+.next a {
+	width:52px;
+	height:52px;
+	margin-left: -15px;
+}
+
+.prev a {
+	width:52px;
+	height:52px;
+	margin-right: -15px;
 }
 
 .volume {
-	position:absolute;
-	top:22px;
-	left: 103px;
+
 }
 
 .volume a {
-	width:16px;
-	height:16px;
-	top: 12px;
+	width:22px;
+	height:13px;
 }
 
 /* hover states */
-.playpausestop a:hover img { margin-top:-40px; }
-.nextprev a:hover img { margin-top:-30px; }
-.volume a:hover img { margin-left:-16px; }
+.playpausestop a:hover img { margin-top:-52px; }
+.nextprev a:hover img { margin-top:-52px; }

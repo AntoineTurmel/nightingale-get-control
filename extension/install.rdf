@@ -2,19 +2,27 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#"
      xmlns:songbird="http://www.songbirdnest.com/2007/addon-metadata-rdf#">
   <Description about="urn:mozilla:install-manifest">
-    <em:id>get-control@gfxmonk.net</em:id>
+    <em:id>get-control@geekshadow.com</em:id>
     <em:type>2</em:type>
     <em:name>GET control</em:name>
-    <em:version>0.3</em:version>
+    <em:version>0.4a</em:version>
     <em:creator>Tim Cuthbertson (gfxmonk)</em:creator>
     <em:contributor>Antoine Turmel (GeekShadow)</em:contributor>
-    <em:description>Control songbird via GET requests</em:description>
+    <em:description>Control Nightingale via GET requests</em:description>
 
     <em:targetApplication>
       <Description>
         <em:id>songbird@songbirdnest.com</em:id>
         <em:minVersion>1.2.0</em:minVersion>
-        <em:maxVersion>1.4.0a</em:maxVersion>
+        <em:maxVersion>2.2.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>nightingale@getnightingale.com</em:id>
+        <em:minVersion>1.11.0</em:minVersion>
+        <em:maxVersion>1.13.0</em:maxVersion>
       </Description>
     </em:targetApplication>
 
